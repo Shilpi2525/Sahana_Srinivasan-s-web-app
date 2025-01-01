@@ -6,7 +6,7 @@ from PIL import Image
 import io
 
 #CONSTANTS
-PREDICTED_LABELS = ['Normal',Glaucoma','Diabetic retinopathy' ]
+PREDICTED_LABELS = ['Normal','Glaucoma','Diabetic retinopathy' ]
 IMAGE_URL = "https://www.aha.org/sites/default/files/inline-images/Nebraska-Medicine-Targets-Earlier-Diabetic-Retinopathy-Detection-with-AI.png"
 PREDICTED_LABELS.sort()
 
