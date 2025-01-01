@@ -35,7 +35,7 @@ st.header("About the Web App")
 #details about the project
 with st.expander("Web App 🌐"):
     st.subheader("Glaucoma and Diabetic retinopathy Classification")
-    st.write("""My web app is designed to classify and predict eye conditions based on input data. It identifies three categories:
+    st.write("""My web app is designed to classify and predict eye conditions based on input image. It identifies three categories:
     1.Normal
     2.Glaucoma
     3.Diabetic Retinopathy
