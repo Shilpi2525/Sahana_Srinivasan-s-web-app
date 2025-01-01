@@ -24,7 +24,7 @@ def get_prediction(image_data):
 #Building the website
 
 #title of the web page
-st.title("Glaucoma and Diabetic retinopathy Classification")
+st.title("Eye Condition Classification")
 
 #setting the main picture
 st.image(IMAGE_URL, caption = "Image Classification")
@@ -35,10 +35,10 @@ st.header("About the Web App")
 #details about the project
 with st.expander("Web App 🌐"):
     st.subheader("Glaucoma and Diabetic retinopathy Classification")
-    st.write("""My app is designed to predict and classify :
+    st.write("""My web app is designed to classify and predict eye conditions based on input data. It identifies three categories:
     1.Normal
     2.Glaucoma
-    3.Diabetic retinopathy
+    3.Diabetic Retinopathy
     """)
 
 #setting file uploader
